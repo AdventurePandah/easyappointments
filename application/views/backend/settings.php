@@ -54,6 +54,9 @@
             </li>
         <?php endif ?>
         <li class="nav-item">
+            <a class="nav-link" href="#workhours" data-toggle="tab"><?= lang('working_plan') ?></a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="#about-app" data-toggle="tab"><?= lang('about_app') ?></a>
         </li>
     </ul>
@@ -493,6 +496,12 @@
                     </fieldset>
                 </div>
             </form>
+        </div>
+
+        <!-- WORKHOURS TAB -->
+
+        <div class="tab-pane" id="workhours">
+           
         </div>
 
         <!-- ABOUT TAB -->
